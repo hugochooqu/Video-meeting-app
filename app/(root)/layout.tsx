@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   description: "Video calling app",
 };
 
+export const dynamic = 'force-dynamic';
+
 const RootLayout = ({children} : {children : ReactNode }) => {
   return (
     <main>
