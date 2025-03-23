@@ -38,10 +38,10 @@ const Signin = () => {
         <div className="flex gap-1 items-center justify-center my-4">
           <FaVideo size={24} color="silver" />
           <p className="text-white font-semibold text-2xl ">
-            YOOM
+            VIDEO APP
           </p>
         </div>
-        <p className="text-center text-lg py-6">Sign in to continue using Yoom</p>
+        <p className="text-center text-lg py-6">Sign in to continue using vIDEO APP</p>
         <div className="flex flex-col items-center gap-6">
           <Button className="border border-white rounded-xl" onClick={handleSignIn}><FaGoogle /> {loading ? 'Signing in with google...' : 'Sign in with Google'} </Button>
           <Button className="border border-white rounded-xl"><FaGithub /> Sign in with Github</Button>
